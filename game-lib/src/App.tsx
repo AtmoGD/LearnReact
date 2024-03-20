@@ -9,7 +9,7 @@ function App() {
       {/* Header */}
       <Header />
 
-      <div>
+      <div className="contentWrapper">
         {/* Side */}
         <SideBar />
 

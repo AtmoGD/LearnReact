@@ -1,7 +1,15 @@
 @import "../index.css";
 
 .header {
-    width: 100svw;
+    width: 100%;
     height: 80px;
     background-color: var(--primary-light);
+}
+
+.headerLogo {
+    width: 20%;
+}
+
+.searchbar {
+    width: 60%;
 }

@@ -1,1 +1,6 @@
 @import "../index.css";
+
+.results {
+    width: 80%;
+    background-color: bisque;
+}

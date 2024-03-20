@@ -1,1 +1,7 @@
 @import "../index.css";
+
+.sideBar {
+    display: flex;
+    width: 20%;
+    background-color: aquamarine;
+}
