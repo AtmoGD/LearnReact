@@ -9,11 +9,13 @@ function App() {
       {/* Header */}
       <Header />
 
-      {/* Side */}
-      <SideBar />
+      <div>
+        {/* Side */}
+        <SideBar />
 
-      {/* Content */}
-      <Results />
+        {/* Content */}
+        <Results />
+      </div>
     </>
   );
 }

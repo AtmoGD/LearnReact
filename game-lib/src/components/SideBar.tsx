@@ -1,5 +1,7 @@
+import "./SideBar.css";
+
 function SideBar() {
-  return <div>SideBar</div>;
+  return <div className="sidebar">SideBar</div>;
 }
 
 export default SideBar;

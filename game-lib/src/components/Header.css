@@ -1,0 +1,7 @@
+@import "../index.css";
+
+.header {
+    width: 100svw;
+    height: 80px;
+    background-color: var(--primary-light);
+}

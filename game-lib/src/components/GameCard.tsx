@@ -1,5 +1,7 @@
+import "./GameCard.css";
+
 function GameCard() {
-  return <div>GameCard</div>;
+  return <div className="gameCard">GameCard</div>;
 }
 
 export default GameCard;

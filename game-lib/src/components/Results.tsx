@@ -1,5 +1,7 @@
+import "./Results.css";
+
 function Results() {
-  return <div>Results</div>;
+  return <div className="results">Results</div>;
 }
 
 export default Results;
