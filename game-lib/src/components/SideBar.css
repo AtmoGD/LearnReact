@@ -1,7 +1,31 @@
 @import "../index.css";
 
-.sideBar {
-    display: flex;
-    width: 20%;
-    background-color: aquamarine;
+.side-bar {
+  /* display: flex; */
+  /* width: 20%; */
+  /* background-color: aquamarine; */
+}
+
+.genre-header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color-dark);
+  margin-left: 20px;
+}
+
+.genre-element {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color-dark);
+  padding: 10px 10px 10px 20px;
+  margin: 5px 5px 5px 0px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.genre-element.active {
+  background-color: gray;
+}
+
+.genre-element:hover {
+  background-color: grey;
+  transition: 0s;
 }

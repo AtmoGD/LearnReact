@@ -1,6 +1,12 @@
 @import "../index.css";
 
 .results {
-    width: 80%;
-    background-color: bisque;
+  /* width: 80%; */
+  /* background-color: bisque; */
+}
+
+.results-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xxx-large;
+  color: var(--text-color-dark);
 }

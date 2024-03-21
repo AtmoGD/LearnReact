@@ -13,7 +13,7 @@ function Header() {
           <input
             className="search-bar-input"
             type="text"
-            placeholder="Search for games"
+            placeholder="Search for free games"
           />
         </div>
       </div>
