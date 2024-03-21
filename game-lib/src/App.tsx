@@ -19,7 +19,7 @@ function App() {
         <SideBar onUpdateGenre={setCurrentGenre} />
 
         {/* Content */}
-        <Results />
+        <Results genre={currentGenre} />
       </div>
     </>
   );

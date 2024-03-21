@@ -1,1 +1,62 @@
 @import "../index.css";
+
+.game-card {
+  background-color: var(--background-dark-lighter);
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.game-card:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+
+.thumb-image {
+  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.information-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0px 10px;
+}
+
+.platform-element {
+  display: flex;
+  width: fit-content;
+  background-color: var(--background-dark-even-lighter);
+  border-radius: 5px;
+  padding: 5px;
+  color: var(--text-color-dark-darker);
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.genre-information-badge {
+  display: flex;
+  width: fit-content;
+  background-color: var(--background-dark-even-lighter);
+  border-radius: 5px;
+  padding: 5px;
+  color: var(--text-color-dark-darker);
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-text {
+  padding: 0px 10px;
+  font-size: large;
+  font-weight: bolder;
+  color: var(--text-color-dark);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.description-text {
+  padding: 0px 10px;
+  font-size: medium;
+  color: var(--text-color-dark-middle);
+  font-family: Arial, Helvetica, sans-serif;
+}

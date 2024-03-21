@@ -6,7 +6,10 @@
   --secondary-dark: #5f5f5f;
   --background-dark: #1f1f1f;
   --background-dark-lighter: #2f2f2f;
+  --background-dark-even-lighter: #3f3f3f;
   --text-color-dark: #f1f1f1;
+  --text-color-dark-middle: #c1c1c1;
+  --text-color-dark-darker: #a1a1a1;
 }
 
 body {

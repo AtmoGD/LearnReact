@@ -10,3 +10,27 @@
   font-size: xxx-large;
   color: var(--text-color-dark);
 }
+
+select {
+  font-size: large;
+  color: var(--text-color-dark);
+  background-color: var(--background-dark-lighter);
+  border: none;
+  border-radius: 5px;
+  margin: 0px 20px 20px 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+select:hover {
+  background-color: var(--background-dark-lighter);
+}
+
+option {
+  background: var(--background-dark);
+}
+
+.results-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
