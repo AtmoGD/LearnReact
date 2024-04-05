@@ -27,10 +27,10 @@
 .platform-element {
   display: flex;
   width: fit-content;
-  background-color: var(--background-dark-even-lighter);
+  background-color: var(--badge-color-platform);
   border-radius: 5px;
   padding: 5px;
-  color: var(--text-color-dark-darker);
+  color: var(--text-color-dark);
   font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -38,10 +38,10 @@
 .genre-information-badge {
   display: flex;
   width: fit-content;
-  background-color: var(--background-dark-even-lighter);
+  background-color: var(--badge-color-genre);
   border-radius: 5px;
   padding: 5px;
-  color: var(--text-color-dark-darker);
+  color: var(--text-color-dark);
   font-size: smaller;
   font-family: Arial, Helvetica, sans-serif;
 }

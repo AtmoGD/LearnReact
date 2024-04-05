@@ -8,17 +8,16 @@ interface Props {
 function SideBar(props: Props) {
   const [activeElement, setActiveElement] = useState("");
 
-  const genres = [
+  const genres: string[] = [
     "None",
     "MMORPG",
     "Shooter",
     "MOBA",
     "Anime",
-    "Battle Royale",
+    "Battle-Royale",
     "Strategy",
     "Fantasy",
     "Sci-Fi",
-    "Card Games",
     "Racing",
     "Fighting",
     "Social",
@@ -26,21 +25,22 @@ function SideBar(props: Props) {
   ];
 
   function clickedOnGenre(element: string) {
-    setActiveElement(element == "None" ? "" : element);
-    props.onUpdateGenre(element);
+    setActiveElement(element === "None" ? "" : element);
+    props.onUpdateGenre(element === "None" ? "" : element);
   }
 
   return (
     <aside className="side-bar">
       <h2 className="genre-header">Genres</h2>
       <div className="list-wrapper">
-        {genres.map(function (element) {
+        {genres.map(function (element, index) {
           return (
             <div
               className={
                 "genre-element " + (activeElement === element ? "active" : "")
               }
               onClick={() => clickedOnGenre(element)}
+              key={index}
             >
               {element}
             </div>

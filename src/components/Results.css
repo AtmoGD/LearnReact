@@ -33,4 +33,5 @@ option {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  transition: 0.4s;
 }

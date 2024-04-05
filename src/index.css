@@ -10,6 +10,8 @@
   --text-color-dark: #f1f1f1;
   --text-color-dark-middle: #c1c1c1;
   --text-color-dark-darker: #a1a1a1;
+  --badge-color-platform: #ff8533;
+  --badge-color-genre: #29a329;
 }
 
 body {
